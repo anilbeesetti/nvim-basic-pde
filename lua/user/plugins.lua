@@ -59,11 +59,20 @@ return packer.startup(function(use)
   use { "hrsh7th/cmp-nvim-lsp" }
   use { "saadparwaiz1/cmp_luasnip" }
 
+
+
+  -- Snippets
+  use { "L3MON4D3/LuaSnip" }
+  use { "rafamadriz/friendly-snippets" }
+
   -- Telescope
   use { "nvim-lua/plenary.nvim" }
   use { "nvim-telescope/telescope.nvim", tag = '0.1.0' }
 
   use { "nvim-treesitter/nvim-treesitter" }
+
+  -- Git
+  use { "lewis6991/gitsigns.nvim" }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
