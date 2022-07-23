@@ -47,6 +47,9 @@ return packer.startup(function(use)
   use { "lunarvim/darkplus.nvim" }
   use { "lunarvim/onedarker.nvim" }
   
+  use { "kyazdani42/nvim-tree.lua" }
+  use { "kyazdani42/nvim-web-devicons" }
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
