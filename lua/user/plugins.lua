@@ -51,6 +51,10 @@ return packer.startup(function(use)
   use { "kyazdani42/nvim-tree.lua" }
   use { "kyazdani42/nvim-web-devicons" }
 
+  -- Telescope
+  use { "nvim-lua/plenary.nvim" }
+  use { "nvim-telescope/telescope.nvim", tag = '0.1.0' }
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
