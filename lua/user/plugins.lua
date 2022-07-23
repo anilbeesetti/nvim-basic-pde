@@ -51,6 +51,14 @@ return packer.startup(function(use)
   use { "kyazdani42/nvim-tree.lua" }
   use { "kyazdani42/nvim-web-devicons" }
 
+  -- Cmp plugins
+  use { "hrsh7th/nvim-cmp" }
+  use { "hrsh7th/cmp-buffer" }
+  use { "hrsh7th/cmp-path" }
+  use { "hrsh7th/cmp-nvim-lua" }
+  use { "hrsh7th/cmp-nvim-lsp" }
+  use { "saadparwaiz1/cmp_luasnip" }
+
   -- Telescope
   use { "nvim-lua/plenary.nvim" }
   use { "nvim-telescope/telescope.nvim", tag = '0.1.0' }
